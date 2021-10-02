@@ -14,4 +14,3 @@ for (let k in tims) {
   sum += tims[k];
 }
 console.log(sum);
-// + через чикл и вприант увелечения
