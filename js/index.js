@@ -8,5 +8,10 @@ let tims = {
   'Коля':100,
   'Гена': 90
 };
-let sum = tims.Иван + tims.Вася+tims.Гена+tims.Коля;
+let sum = 0;
+
+for (let k in tims) {
+  sum += tims[k];
+}
 console.log(sum);
+// + через чикл и вприант увелечения
