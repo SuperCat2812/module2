@@ -8,5 +8,5 @@ let tims = {
   'Коля':100,
   'Гена': 90
 };
-let sum = [tims.Иван + tims.Вася+tims.Гена+tims.Коля];
+let sum = tims.Иван + tims.Вася+tims.Гена+tims.Коля;
 console.log(sum);
